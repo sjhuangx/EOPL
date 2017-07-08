@@ -8,10 +8,13 @@
     (syntax-rules ()
         ((_ test-exp correct-ans)
          (let ((observed-ans test-exp))
-            (when (not (equal? observed-ans correct-ans))
+            (if (not (equal? observed-ans correct-ans))
                 (eopl:printf "~s returned ~s, should have returned ~s~%"
                     'test-exp
                     observed-ans
+                    correct-ans)
+                (eopl:printf "~s return ~s, is OK!~%"
+                    'test-exp
                     correct-ans))))))
 
 (define func-test
