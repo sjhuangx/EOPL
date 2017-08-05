@@ -1,6 +1,6 @@
 #lang eopl
 
-(require "../utils.rkt")
+(require "../libs/utils.rkt")
 
 (define leaf (lambda (n) n))
 (define leaf? number?)

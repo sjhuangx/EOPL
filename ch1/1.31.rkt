@@ -1,6 +1,6 @@
 #lang eopl
 
-(require "../utils.rkt")
+(require "../libs/utils.rkt")
 
 (provide interior-node leaf leaf? lson rson contents-of)
 

@@ -1,6 +1,6 @@
 #lang eopl
 
-(require "../utils.rkt")
+(require "../libs/utils.rkt")
 (require "1.31.rkt")
 
 ; Exercise 1.33
