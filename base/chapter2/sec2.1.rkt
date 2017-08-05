@@ -1,8 +1,6 @@
 #lang eopl
 
-(require "../../utils.rkt")
-
-
+(require "../../libs/utils.rkt")
 
 
 ;; Unary representation
