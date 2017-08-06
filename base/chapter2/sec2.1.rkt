@@ -81,7 +81,7 @@
             (plus
                 (scheme-int->my-int 6)
                 (scheme-int->my-int 5)))
-        10)
+        11)
     
     (report-unit-tests-completed 'bignum-respresentation)
 )
