@@ -2,7 +2,6 @@
 
 (require "../../libs/utils.rkt")
 
-
 ;; Unary representation
 (let ()
     (define zero (lambda () '()))
